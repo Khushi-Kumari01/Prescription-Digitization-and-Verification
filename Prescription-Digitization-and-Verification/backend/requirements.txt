@@ -1,0 +1,31 @@
+# RxGuardian AI - Backend Dependencies
+
+# Web framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Image processing (headless avoids conflict with easyocr's opencv-python-headless)
+opencv-python-headless>=4.8.0
+
+# OCR engine
+easyocr>=1.7.0
+
+# NLP
+spacy>=3.7.0
+
+# Drug API
+requests>=2.31.0
+
+# AI summarization
+transformers>=4.36.0
+torch>=2.1.0
+
+# Utilities
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Firebase (optional - uncomment if needed)
+# firebase-admin>=6.0.0
