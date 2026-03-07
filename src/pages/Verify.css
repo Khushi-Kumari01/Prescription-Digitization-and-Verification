@@ -1,0 +1,17 @@
+.verify-page { display:flex; flex-direction:column; gap:20px; }
+.verify-add-row { display:grid; grid-template-columns:1fr 1fr 1fr auto; gap:12px; align-items:end; }
+.verify-stats { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+.verify-stat { display:flex; align-items:center; gap:14px; background:white; border:1px solid var(--border-2); border-radius:var(--radius-lg); padding:18px 20px; }
+.verify-stat-icon { width:44px; height:44px; border-radius:12px; display:flex; align-items:center; justify-content:center; }
+.verify-stat-icon .material-symbols-rounded { font-size:22px; }
+.verify-stat-green .verify-stat-icon  { background:var(--green-lt); color:var(--green); }
+.verify-stat-amber .verify-stat-icon  { background:var(--amber-lt); color:#A07000; }
+.verify-stat-red   .verify-stat-icon  { background:var(--red-lt);   color:var(--red); }
+.verify-stat-blue  .verify-stat-icon  { background:var(--blue-50);  color:var(--blue-500); }
+.verify-stat-val { font-family:var(--font-h); font-size:26px; font-weight:700; color:var(--t1); }
+.verify-stat-lbl { font-size:12px; color:var(--t3); font-weight:500; }
+.drug-table { width:100%; border-collapse:collapse; }
+.drug-table th { padding:11px 16px; font-size:12px; font-weight:700; color:var(--t3); text-align:left; background:var(--surface); border-bottom:1px solid var(--border-2); text-transform:uppercase; letter-spacing:.04em; }
+.drug-table td { padding:13px 16px; font-size:13.5px; border-bottom:1px solid var(--border-2); }
+.drug-table tr:last-child td { border-bottom:none; }
+.drug-table tr:hover td { background:var(--surface); }

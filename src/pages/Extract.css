@@ -1,0 +1,16 @@
+.extract-page { display:flex; flex-direction:column; gap:20px; }
+.extract-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
+.extract-card { background:white; border:1.5px solid var(--border-2); border-radius:var(--radius-lg); padding:20px; display:flex; flex-direction:column; gap:14px; box-shadow:var(--shadow-sm); transition:box-shadow .2s; }
+.extract-card:hover { box-shadow:var(--shadow); }
+.extract-card.flagged { border-color:var(--amber); background:var(--amber-lt); }
+.extract-card-top { display:flex; align-items:center; gap:12px; }
+.extract-med-icon { font-size:28px; }
+.extract-med-name { font-family:var(--font-h); font-size:16px; font-weight:700; color:var(--t1); }
+.extract-med-dose { font-size:13px; color:var(--blue-500); font-weight:600; }
+.extract-med-details { display:flex; flex-direction:column; gap:7px; }
+.extract-detail { display:flex; justify-content:space-between; font-size:12.5px; border-bottom:1px solid var(--border-2); padding-bottom:7px; }
+.extract-detail:last-child { border-bottom:none; padding-bottom:0; }
+.extract-detail span { color:var(--t3); }
+.extract-detail strong { color:var(--t1); }
+.extract-card-footer { display:flex; justify-content:flex-end; }
+.extract-footer-bar { display:flex; align-items:center; justify-content:space-between; background:white; border:1px solid var(--border-2); border-radius:var(--radius-lg); padding:16px 24px; }
